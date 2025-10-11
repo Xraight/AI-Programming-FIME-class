@@ -49,3 +49,10 @@ Notarás que el nombre del entorno (preproceso-env) aparece al inicio de la lín
 python main.py
 ```
 Al finalizar, se creará un nuevo archivo llamado `training_dataset_mejorado.csv` en la carpeta principal del proyecto, el cual contiene los datos listos para el entrenamiento de un modelo.
+
+#### Ejemplo de Uso: Predicción del equipo en tiempo real 🎯
+En un escenario, un analista de datos y coache de un equipo competitivo de League of Legends necesita crear un modelo que pueda predecir el resultado de una partida mientras aún está en curso, por lo tanto, tendrá que analizar datos de multitud de partidas y sus diferentes variables que determinan la victoria
+
+#### Autores
+* Sergio Butzmann
+* Gustavo Guzman
