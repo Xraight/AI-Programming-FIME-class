@@ -74,10 +74,11 @@ Se utiliza un Perceptrón Multicapa (MLPClassifier) de la librería ````scikit-l
 
 - Normalización: Se aplicó ````StandardScaler```` a los datos de entrada para mejorar la convergencia de la red, dado que las magnitudes de las variables varían drásticamente (ej. Oro vs Dragones).
 
-📊 Resultados Esperados
+## 📊 Resultados Esperados
 
 El modelo alcanza una exactitud (**Accuracy**) aproximada del 71% - 72% en el conjunto de prueba.
 
 - **Interpretación**: Predecir el resultado final con solo 10 minutos de información es complejo debido a la naturaleza impredecible del juego (remontadas, errores tardíos). Un 72% es considerado un rendimiento sólido para este dataset específico sin caer en sobreajuste (overfitting).
 
 - **Output Visual**: El programa generará una **Matriz de Confusión** mostrando los aciertos y errores del modelo para cada clase (Gana Blue vs Gana Red).
+
